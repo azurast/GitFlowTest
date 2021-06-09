@@ -16,18 +16,50 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Here is the cockpit room" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FcW-vC-raD">
-                                <rect key="frame" x="20" y="412" width="350" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Here is the cockpit room" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FcW-vC-raD">
+                                <rect key="frame" x="20" y="412" width="350" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="It's directly have access to" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zkc-fS-Kt6">
+                                <rect key="frame" x="20" y="452" width="350" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="npS-Vh-WDu">
+                                <rect key="frame" x="20" y="503" width="94" height="30"/>
+                                <state key="normal" title="Control Room">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="controlRoomButtonTappedWithSender:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="TCe-27-c5b"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cf0-aK-l7R">
+                                <rect key="frame" x="20" y="553" width="90" height="30"/>
+                                <state key="normal" title="Engine Room">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="engineRoomButtonTappedWithSender:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="qBQ-Mp-fmz"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemIndigoColor"/>
                         <constraints>
+                            <constraint firstItem="zkc-fS-Kt6" firstAttribute="top" secondItem="FcW-vC-raD" secondAttribute="bottom" constant="10" id="9g9-xp-A8G"/>
                             <constraint firstItem="FcW-vC-raD" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="MGD-Ir-UqR"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="FcW-vC-raD" secondAttribute="trailing" constant="20" id="Mml-fT-DWv"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="zkc-fS-Kt6" secondAttribute="trailing" constant="20" id="gg3-Rx-tK6"/>
+                            <constraint firstItem="cf0-aK-l7R" firstAttribute="top" secondItem="npS-Vh-WDu" secondAttribute="bottom" constant="20" id="hNP-z0-s0h"/>
+                            <constraint firstItem="npS-Vh-WDu" firstAttribute="top" secondItem="zkc-fS-Kt6" secondAttribute="bottom" constant="30" id="hiF-P7-6Yy"/>
+                            <constraint firstItem="cf0-aK-l7R" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="oB8-cb-dDy"/>
+                            <constraint firstItem="npS-Vh-WDu" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="sys-MU-fCo"/>
+                            <constraint firstItem="FcW-vC-raD" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="368" id="tmC-Xa-1JZ"/>
+                            <constraint firstItem="zkc-fS-Kt6" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="yhh-34-im5"/>
                         </constraints>
                     </view>
                 </viewController>

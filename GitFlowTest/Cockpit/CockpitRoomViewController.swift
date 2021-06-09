@@ -15,6 +15,13 @@ class CockpitRoomViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func controlRoomButtonTapped(sender: UIButton) {
+        
+    }
+    
+    @IBAction func engineRoomButtonTapped(sender: UIButton) {
+        
+    }
 
     /*
     // MARK: - Navigation
