@@ -13,8 +13,13 @@
 		1BF473922670C65C0013CAA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF473902670C65C0013CAA3 /* Main.storyboard */; };
 		1BF473942670C65E0013CAA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BF473932670C65E0013CAA3 /* Assets.xcassets */; };
 		1BF473972670C65E0013CAA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF473952670C65E0013CAA3 /* LaunchScreen.storyboard */; };
+<<<<<<< HEAD
 		1BF473A02670CA540013CAA3 /* EngineRoomStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF4739F2670CA540013CAA3 /* EngineRoomStoryboard.storyboard */; };
 		1BF473A42670D1620013CAA3 /* EngineRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF473A32670D1620013CAA3 /* EngineRoomViewController.swift */; };
+=======
+		E151E5B52670CA44006DC67E /* CockpitRoomStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E151E5B42670CA44006DC67E /* CockpitRoomStoryboard.storyboard */; };
+		E151E5B72670CA60006DC67E /* CockpitRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E151E5B62670CA60006DC67E /* CockpitRoomViewController.swift */; };
+>>>>>>> b144820 (add cockpit storyboard and cockpit view controller)
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +31,13 @@
 		1BF473932670C65E0013CAA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BF473962670C65E0013CAA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BF473982670C65E0013CAA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		1BF4739F2670CA540013CAA3 /* EngineRoomStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EngineRoomStoryboard.storyboard; sourceTree = "<group>"; };
 		1BF473A32670D1620013CAA3 /* EngineRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineRoomViewController.swift; sourceTree = "<group>"; };
+=======
+		E151E5B42670CA44006DC67E /* CockpitRoomStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CockpitRoomStoryboard.storyboard; sourceTree = "<group>"; };
+		E151E5B62670CA60006DC67E /* CockpitRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CockpitRoomViewController.swift; sourceTree = "<group>"; };
+>>>>>>> b144820 (add cockpit storyboard and cockpit view controller)
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +70,12 @@
 		1BF473892670C65C0013CAA3 /* GitFlowTest */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				1BF473A22670D1050013CAA3 /* Control */,
 				1BF473A12670D0FC0013CAA3 /* Engine */,
+=======
+				E151E5B32670CA1A006DC67E /* Cockpit */,
+>>>>>>> b144820 (add cockpit storyboard and cockpit view controller)
 				1BF4738A2670C65C0013CAA3 /* AppDelegate.swift */,
 				1BF4738C2670C65C0013CAA3 /* SceneDelegate.swift */,
 				1BF473932670C65E0013CAA3 /* Assets.xcassets */,
@@ -71,6 +85,7 @@
 			path = GitFlowTest;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		1BF473A12670D0FC0013CAA3 /* Engine */ = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +102,15 @@
 				1BF473902670C65C0013CAA3 /* Main.storyboard */,
 			);
 			path = Control;
+=======
+		E151E5B32670CA1A006DC67E /* Cockpit */ = {
+			isa = PBXGroup;
+			children = (
+				E151E5B42670CA44006DC67E /* CockpitRoomStoryboard.storyboard */,
+				E151E5B62670CA60006DC67E /* CockpitRoomViewController.swift */,
+			);
+			path = Cockpit;
+>>>>>>> b144820 (add cockpit storyboard and cockpit view controller)
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +170,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E151E5B52670CA44006DC67E /* CockpitRoomStoryboard.storyboard in Resources */,
 				1BF473972670C65E0013CAA3 /* LaunchScreen.storyboard in Resources */,
 				1BF473942670C65E0013CAA3 /* Assets.xcassets in Resources */,
 				1BF473A02670CA540013CAA3 /* EngineRoomStoryboard.storyboard in Resources */,
@@ -163,7 +188,11 @@
 				1BF4738F2670C65C0013CAA3 /* ViewController.swift in Sources */,
 				1BF4738B2670C65C0013CAA3 /* AppDelegate.swift in Sources */,
 				1BF4738D2670C65C0013CAA3 /* SceneDelegate.swift in Sources */,
+<<<<<<< HEAD
 				1BF473A42670D1620013CAA3 /* EngineRoomViewController.swift in Sources */,
+=======
+				E151E5B72670CA60006DC67E /* CockpitRoomViewController.swift in Sources */,
+>>>>>>> b144820 (add cockpit storyboard and cockpit view controller)
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
