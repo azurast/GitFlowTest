@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B4C38862671A3A6001F2681 /* TestNewStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B4C38852671A3A6001F2681 /* TestNewStoryboard.storyboard */; };
+		1B4C38882671A3B6001F2681 /* TestNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4C38872671A3B6001F2681 /* TestNewViewController.swift */; };
 		1BF4738B2670C65C0013CAA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF4738A2670C65C0013CAA3 /* AppDelegate.swift */; };
 		1BF4738D2670C65C0013CAA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF4738C2670C65C0013CAA3 /* SceneDelegate.swift */; };
 		1BF4738F2670C65C0013CAA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF4738E2670C65C0013CAA3 /* ViewController.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B4C38852671A3A6001F2681 /* TestNewStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TestNewStoryboard.storyboard; sourceTree = "<group>"; };
+		1B4C38872671A3B6001F2681 /* TestNewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNewViewController.swift; sourceTree = "<group>"; };
 		1BF473872670C65C0013CAA3 /* GitFlowTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitFlowTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BF4738A2670C65C0013CAA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BF4738C2670C65C0013CAA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B4C38842671A38C001F2681 /* Test New Folder */ = {
+			isa = PBXGroup;
+			children = (
+				1B4C38852671A3A6001F2681 /* TestNewStoryboard.storyboard */,
+				1B4C38872671A3B6001F2681 /* TestNewViewController.swift */,
+			);
+			path = "Test New Folder";
+			sourceTree = "<group>";
+		};
 		1BF4737E2670C65C0013CAA3 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +73,7 @@
 		1BF473892670C65C0013CAA3 /* GitFlowTest */ = {
 			isa = PBXGroup;
 			children = (
+				1B4C38842671A38C001F2681 /* Test New Folder */,
 				1BF473A22670D1050013CAA3 /* Control */,
 				1BF473A12670D0FC0013CAA3 /* Engine */,
 				1BF4738A2670C65C0013CAA3 /* AppDelegate.swift */,
@@ -146,6 +160,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B4C38862671A3A6001F2681 /* TestNewStoryboard.storyboard in Resources */,
 				1BF473972670C65E0013CAA3 /* LaunchScreen.storyboard in Resources */,
 				1BF473942670C65E0013CAA3 /* Assets.xcassets in Resources */,
 				1BF473A02670CA540013CAA3 /* EngineRoomStoryboard.storyboard in Resources */,
@@ -162,6 +177,7 @@
 			files = (
 				1BF4738F2670C65C0013CAA3 /* ViewController.swift in Sources */,
 				1BF4738B2670C65C0013CAA3 /* AppDelegate.swift in Sources */,
+				1B4C38882671A3B6001F2681 /* TestNewViewController.swift in Sources */,
 				1BF4738D2670C65C0013CAA3 /* SceneDelegate.swift in Sources */,
 				1BF473A42670D1620013CAA3 /* EngineRoomViewController.swift in Sources */,
 			);
